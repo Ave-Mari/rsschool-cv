@@ -1,1 +1,1 @@
-https://Ave-Mari.github.io/rsschool-cv/cv.md
+https://Ave-Mari.github.io/rsschool-cv/cv
