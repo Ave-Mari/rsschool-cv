@@ -24,7 +24,8 @@
 
 ### Пример кода:
 *Разметка, отображающая карточки товаров, реализованная на JavaScript:*
-```const sectionWrapper = document.querySelector('.products__wrapper');
+```
+const sectionWrapper = document.querySelector('.products__wrapper');
 
 window.addEventListener('DOMContentLoaded', function() {
     let displayMenu = menu.map(function(item) {
@@ -44,4 +45,5 @@ window.addEventListener('DOMContentLoaded', function() {
     });
     displayMenu = displayMenu.join('');
     sectionWrapper.innerHTML = displayMenu;
-})```
+})
+```
