@@ -39,10 +39,10 @@ function maps(x){
 *В разработке*
 
 ### Образование:
-Неоконченное высшее:  МИРЭА — Радиоэлектронные системы и комплексы (2 года)
-Курсы: 
-[Loftschool — "Веб-разработка для начинающих"](https://loftschool.com/diploma/GJ1604499868/ru/pdf)
-[Loftschool — "Комплексное обучение JavaScript"](https://loftschool.com/diploma/FB1607986487/ru/pdf)
+* Неоконченное высшее:  МИРЭА — Радиоэлектронные системы и комплексы (2 года)
+* Курсы: 
+    *[Loftschool — "Веб-разработка для начинающих"](https://loftschool.com/diploma/GJ1604499868/ru/pdf)
+    *[Loftschool — "Комплексное обучение JavaScript"](https://loftschool.com/diploma/FB1607986487/ru/pdf)
 
 
 ### Языки:
