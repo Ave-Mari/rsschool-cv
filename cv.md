@@ -19,31 +19,32 @@
 * Webpack
 * npm-пакеты
  
-* Английский язык — B2
-* Русский язык — Родной
 
 ### Пример кода:
-*Разметка, отображающая карточки товаров, реализованная на JavaScript:*
-```
-const sectionWrapper = document.querySelector('.products__wrapper');
 
-window.addEventListener('DOMContentLoaded', function() {
-    let displayMenu = menu.map(function(item) {
-        return `
-        <div class="product__item">
-        <div class="product__visual">                        
-            <img src="${item.img}" alt="${item.title}" class="product__img">
-            <div class="product__price">${item.price}₽</div>
-            <div class="product__weight">${item.weight} г</div>
-        </div>
-        <div class="product__details">
-            <h1 class="product__name">${item.title}</h1>
-            <div class="product__desc">${item.desc}</div>
-         </div>
-    </div>
-        `;
-    });
-    displayMenu = displayMenu.join('');
-    sectionWrapper.innerHTML = displayMenu;
-})
 ```
+function maps(x){
+   let doubleInt = [];
+
+  doubleInt = x.map((element) => {
+    return element * 2;
+  });
+
+  return doubleInt
+}
+```
+
+
+### Опыт работы:
+*В разработке*
+
+### Образование:
+Неоконченное высшее:  МИРЭА — Радиоэлектронные системы и комплексы (2 года)
+Курсы: 
+[Loftschool — "Веб-разработка для начинающих"](https://loftschool.com/diploma/GJ1604499868/ru/pdf)
+[Loftschool — "Комплексное обучение JavaScript"](https://loftschool.com/diploma/FB1607986487/ru/pdf)
+
+
+### Языки:
+* Английский язык — B2
+* Русский язык — Родной
