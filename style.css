@@ -36,7 +36,7 @@ body {
 .profile__pic {
     border: 9px solid #fff;
    }
-   
+    
 
 
 .skills__item {
@@ -47,5 +47,11 @@ body {
     border-radius: 20px;
 }
 
+
+.code__content {
+    background-color: #bcc8d7;
+    display: inline-block;
+    border-radius: 20px;
+}
 /* #4A89DC */
 /* #37BC9B */
