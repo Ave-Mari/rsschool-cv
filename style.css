@@ -13,8 +13,39 @@ body {
     margin: 0 auto;
   
 }
-.header__title {
-    color: red;
+
+.header {
+    margin: 0 auto;
+}
+
+.header__wrapper {
+    padding: 48px 200px;
+    background: #4A89DC;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+   
+}
+
+.header__title, .header__position {
+    color: #fff;
+}
+
+.profile__pic {
+    border: 9px solid #fff;
+   }
+   
+
+
+.skills__item {
+    background: #37BC9B;
+    color: #fff;
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 20px;
 }
 
 /* #4A89DC */
+/* #37BC9B */
