@@ -53,5 +53,8 @@ body {
     display: inline-block;
     border-radius: 20px;
 }
-/* #4A89DC */
-/* #37BC9B */
+
+
+.work-experience__content {
+    font-style: italic;
+}
