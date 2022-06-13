@@ -58,3 +58,13 @@ body {
 .work-experience__content {
     font-style: italic;
 }
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__img {
+    height: 40px;
+}
