@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,60 +8,71 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- something with main-tag -->
+<main class="main">
     <header class="header">
-        <div class="header__wrapper">
-            <div class="header__picture">
-                <img src="" alt="">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__picture">
+                    <img class="" src="./assets/profile-pic.jpg" alt="profile picture">
+                </div>
+                <div class="header__name">
+                    <h1 class="header__title">Мари Вайпан</h1>
+                    <h2 class="header__position">Junior Frontend Developer</h2>
+                </div>
             </div>
-            <div class="header__name">
-                <h1 class="header__title">Мари Вайпан</h1>
-                <h2 class="header__position">Junior Frontend Developer</h2>
-            </div>
-        </div>
+        </div>       
     </header>
+    <section class="basic">
+        <div class="container">
+            <h2 class="section__title">Основная информация</h2>
+            <ul class="basic__list">
+                <li class="basic__item">Возраст: 24</li>
+                <li class="basic__item">Телефон: +79190565166</li>
+                <li class="basic__item">E-mail: avemari98@gmail.com</li>
+                <li class="basic__item">Telegram: @marifog</li>
+                <li class="basic__item">Языки: Русский — родной, Английский — B2</li>
+            </ul>
+        </div>    
+    </section>
     <section class="about">
-        <h2 class="section__title">Basic information</h2>
-        <ul class="abot__list">
-            <li class="about__item">Возраст: </li>
-            <li class="about__item">Телефон: +79190565166</li>
-            <li class="about__item">E-mail: avemari98@gmail.com</li>
-            <li class="about__item">Telegram: @marifog</li>
-            <li class="about__item">Языки: Русский — родной, Английский — B2</li>
-        </ul>
-        <!-- //// -->
-        <h2 class="about__title">About me</h2>
-        <p class="about__description">Ещё со школы меня заинтересовала математика и физика, перевод в физико-математически класс означал, что я хочу связать свою жизнь и будующую профессию с технической сферой. С первого раза не удалось сделать правильный выбор учебного заведения, я ошибочно полагала, что мне понравится учиться на инженера в области радиотехники, после попыток заставить себя разбираться в материале университет пришлось оставить. Затем месяцы размышлений о том, чем я хочу заниматься, вспоминаю, что в школе мне также нравилось решать задачи на программирование. Поиск в интернете на предмет областей разработки, которые мне бы пришлись по душе, привёл меня к профессии frontend-разработчика. Первые попытки вёрстки и изучения JavaScript принесли мне большое удовольствие, хотелось узнавать больше, разбираться в документации, пробовать новые методы решения задач. Надеюсь в скором времени стать хорошим специалистом и иметь возможность работать заграницей. У меня есть опыт самостоятельного обучения, с помощью платных и бесплатных курсов, на данный момент хочу попробовать программу Rolling Scopes School.</p>        
+        <div class="container">
+            <h2 class="about__title">Обо мне</h2>
+            <p class="about__description">Ещё со школы меня заинтересовала математика и физика, перевод в физико-математически класс означал, что я хочу связать свою жизнь и будующую профессию с технической сферой. С первого раза не удалось сделать правильный выбор учебного заведения, я ошибочно полагала, что мне понравится учиться на инженера в области радиотехники, после попыток заставить себя разбираться в материале университет пришлось оставить. Затем месяцы размышлений о том, чем я хочу заниматься, вспоминаю, что в школе мне также нравилось решать задачи на программирование. Поиск в интернете на предмет областей разработки, которые мне бы пришлись по душе, привёл меня к профессии frontend-разработчика. Первые попытки вёрстки и изучения JavaScript принесли мне большое удовольствие, хотелось узнавать больше, разбираться в документации, пробовать новые методы решения задач. Надеюсь в скором времени стать хорошим специалистом и иметь возможность работать заграницей. У меня есть опыт самостоятельного обучения, с помощью платных и бесплатных курсов, на данный момент хочу попробовать программу Rolling Scopes School.</p>     </div>
     </section>
     <section class="skills">
-        <h2 class="section__title">Технологии</h2>
-        <ul class="skills__list">
-            <li class="skills__item">HTML</li>
-            <li class="skills__item">CSS</li>
-            <li class="skills__item">JavaScript</li>
-            <li class="skills__item">Git</li>
-            <li class="skills__item">SASS</li>
-            <li class="skills__item">Figma</li>
-            <li class="skills__item">Webpack</li>
-            <li class="skills__item">npm-пакеты</li>
-        </ul>
+        <div class="container">
+            <h2 class="section__title">Технологии</h2>
+            <ul class="skills__list">
+                <li class="skills__item">HTML</li>
+                <li class="skills__item">CSS</li>
+                <li class="skills__item">JavaScript</li>
+                <li class="skills__item">Git</li>
+                <li class="skills__item">SASS</li>
+                <li class="skills__item">Figma</li>
+                <li class="skills__item">Webpack</li>
+                <li class="skills__item">npm-пакеты</li>
+            </ul>
+        </div>
     </section>
     <section class="code">
-        <h2 class="section__title">Пример кода</h2>
-        <code>
-            function maps(x){
-                let doubleInt = [];
-             
-               doubleInt = x.map((element) => {
-                 return element * 2;
-               });
-             
-               return doubleInt
-             }
-        </code>
+        <div class="container">
+            <h2 class="section__title">Пример кода</h2>
+            <code>
+                function maps(x){
+                    let doubleInt = [];
+                 
+                   doubleInt = x.map((element) => {
+                     return element * 2;
+                   });
+                 
+                   return doubleInt
+                 }
+            </code>
+        </div>      
     </section>
     <section class="work-experience">
-        <h2 class="section__title">В разработке</h2>
+        <div class="container">
+            <h2 class="section__title">В разработке</h2>
     </section>
     <section class="education">
         <h2 class="section__title">Курсы</h2>
@@ -69,7 +80,14 @@
             <li class="education__item"><a href="https://loftschool.com/diploma/GJ1604499868/ru/pdf" class="education__link">Loftschool — “Веб-разработка для начинающих”</a></li>
             <li class="education__item"><a href="https://loftschool.com/diploma/FB1607986487/ru/pdf" class="education__link">Loftschool — “Комплексное обучение JavaScript”</a></li>
         </ul>
+        </div>
     </section>
+    <footer class="footer">
+        <div class="container"></div>
+
+    </footer>
+</main>
+   
 </body>
 </html>
 
