@@ -68,3 +68,10 @@ body {
 .footer__img {
     height: 40px;
 }
+
+.education {
+    margin-bottom: 33px;
+}
+.education__item {
+    margin-bottom: 8px;
+}
