@@ -71,7 +71,21 @@ body {
 
 .education {
     margin-bottom: 33px;
+   
 }
+
 .education__item {
+    background: #37BC9B;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 8px 12px;
+}
+.education__link {
     margin-bottom: 8px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.education__item:hover {
+    background: #1c866b;
 }
