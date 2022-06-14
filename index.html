@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML &amp; CSS CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="main">
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__picture">
+                    <img class="profile__pic" src="./assets/profile-pic.jpg" alt="cv-picture" width="204" height="204">
+                </div>
+                <div class="header__name">
+                    <h1 class="header__title">Мари Вайпан</h1>
+                    <h2 class="header__position">Junior Frontend Developer</h2>
+                </div>
+            </div>
+        </div>       
+    </header>
+    <section class="basic">
+        <div class="container">
+            <h2 class="section__title">Основная информация</h2>
+            <ul class="basic__list">
+                <li class="basic__item"><b>Возраст:</b> 24</li>
+                <li class="basic__item"><b>Телефон:</b> +79190565166</li>
+                <li class="basic__item"><b>E-mail:</b> avemari98@gmail.com</li>
+                <li class="basic__item"><b>Telegram:</b> @marifog</li>
+                <li class="basic__item"><b>Языки:</b> Русский — родной, Английский — B2</li>
+            </ul>
+        </div>    
+    </section>
+    <section class="about">
+        <div class="container">
+            <h2 class="about__title">Обо мне</h2>
+            <p class="about__description">Ещё со школы меня заинтересовала математика и физика, перевод в физико-математически класс означал, что я хочу связать свою жизнь и будующую профессию с технической сферой. С первого раза не удалось сделать правильный выбор учебного заведения, я ошибочно полагала, что мне понравится учиться на инженера в области радиотехники, после попыток заставить себя разбираться в материале университет пришлось оставить. Затем месяцы размышлений о том, чем я хочу заниматься, вспоминаю, что в школе мне также нравилось решать задачи на программирование. Поиск в интернете на предмет областей разработки, которые мне бы пришлись по душе, привёл меня к профессии frontend-разработчика. Первые попытки вёрстки и изучения JavaScript принесли мне большое удовольствие, хотелось узнавать больше, разбираться в документации, пробовать новые методы решения задач. Надеюсь в скором времени стать хорошим специалистом и иметь возможность работать заграницей. У меня есть опыт самостоятельного обучения, с помощью платных и бесплатных курсов, на данный момент хочу попробовать программу Rolling Scopes School.</p>     </div>
+    </section>
+    <section class="skills">
+        <div class="container">
+            <h2 class="section__title">Технологии</h2>
+            <ul class="skills__list">
+                <li class="skills__item">HTML</li>
+                <li class="skills__item">CSS</li>
+                <li class="skills__item">JavaScript</li>
+                <li class="skills__item">Git</li>
+                <li class="skills__item">Grid</li>
+                <li class="skills__item">Flex</li>
+                <li class="skills__item">SASS</li>
+                <li class="skills__item">LESS</li>
+                <li class="skills__item">Figma</li>
+                <li class="skills__item">Webpack</li>
+                <li class="skills__item">npm-пакеты</li>
+            </ul>
+        </div>
+    </section>
+    <section class="code">
+        <div class="container">
+            <h2 class="section__title">Пример кода</h2>
+            <pre class="code__content">
+                <code>
+    function maps(x) {
+        let doubleInt = [];
+        doubleInt = x.map((element) => {    
+            return element * 2;
+        });
+           return doubleInt
+    };
+                </code>
+            </pre>            
+        </div>      
+    </section>
+    <section class="work-experience">
+        <div class="container">
+            <h2 class="section__title">Опыт работы</h2>
+            <p class="work-experience__content">В разработке</p>
+            </div>
+    </section>
+    <section class="education">
+        <div class="container">
+            <h2 class="section__title">Курсы</h2>
+            <ul class="education__list">
+                <li class="education__item"><a target="_blank" href="https://loftschool.com/diploma/GJ1604499868/ru/pdf" class="education__link">Loftschool — “Веб-разработка для начинающих”</a></li>
+                <li class="education__item"><a target="_blank" href="https://loftschool.com/diploma/FB1607986487/ru/pdf" class="education__link">Loftschool — “Комплексное обучение JavaScript”</a></li>
+            </ul>
+            </div>
+        
+        
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__item">
+                    <a target="_blank" href="https://github.com/Ave-Mari">
+                        <img class="footer__img" src="/assets/github.svg" alt="github-profile">
+                    </a>
+                </div>
+                <div class="footer__item">
+                    <a target="_blank" href="https://rs.school/js/">
+                    <img class="footer__img" src="/assets/rs_school_js.svg" alt="rsschool">
+                    </a>
+                </div>
+                <div class="footer__item">© 2022</div>
+            </div>
+        </div>
+
+    </footer>
+</main>
+   
+</body>
+</html>
+
